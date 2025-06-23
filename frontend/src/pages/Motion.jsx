@@ -7,12 +7,13 @@ const Motion = () => {
         className="h-80 w-80 bg-red-500 border bored-white rounded-md"
         animate={{
           rotate: 360,
+          x: 500,
           scale: 1.2,
           transition: {
             duration: 2,
             ease: "easeInOut",
-            repeat: Infinity,
-            repeatType: "reverse",
+            // repeat: Infinity,
+            // repeatType: "reverse",
           },
         }}
       ></motion.div>
